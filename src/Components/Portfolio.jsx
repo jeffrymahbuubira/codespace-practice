@@ -31,28 +31,27 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "BERT + Advanced 5-layer CNN for Hate Speech Classification 🎉",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Bert Hate Speech Classification is a project that aims to classify hate speech from Davidson Dataset. The project is built using BERT and adding Advanced 5-Layer CNN to improve the performance of the model.",
+    url: "https://huggingface.co/spaces/jeffrymahbuubi/bert-advanced-cnn-hate-speech-classification",
   },
   {
-    title: "Web Development for Beginners",
-    description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+    title: "MisterMenu",
+    description: "Web application that allows customers to order food from a restaurant's menu",
+    url: "https://mistermenu.jeffrymahbuubi.com/",
   },
   {
-    title: "My Resume Site",
+    title: "Hybrid Solar Charger for Quadcopter",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "An autonomous Landing Quadcopterand A charging system developed by combining solar enery as power source and landing pad modified to do the charging sequence",
+    url: "https://read.cv/jeffrymahbuubi",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "COVID-19 Chest X Ray Classification Using Convolutional Neural Network (CNN)",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "An Artificial Intelligence (AI) approach to detect between Normal, COVID, and Pneumonia Lungs. The program was fully developed with MATLAB and using deep learning technique.",
+    url: "https://github.com/jeffrymahbuubi/COVID-19-Chest-X-Ray-Classification",
   },
 ];
 
@@ -64,7 +63,12 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{
+              height: "90%",
+              width: "100%",
+              objectFit: "cover",
+              animation: "1s ease-out 0s 1 slideIn",
+            }}
             alt={imageAltText}
           />
         </div>
